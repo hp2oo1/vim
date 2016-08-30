@@ -35,6 +35,8 @@ endfunction
 " misc
 set nowrap              " do not wrap lines
 set guioptions+=a       " enable copy-on-select on windows
+" Ming Bai's undotree
+nnoremap <leader>u :UndotreeToggle<CR>
 " colours
 colorscheme solarized   " Ethan Schoonover's colorscheme
 set background=dark     " dark/light
