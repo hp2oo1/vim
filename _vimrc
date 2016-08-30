@@ -56,6 +56,8 @@ set showmatch           " highlight matching [{()}]
 " searching
 set incsearch           " search as characters are entered
 set hlsearch            " hightlight matches
+set ignorecase          " case insensitive
+set smartcase           " case insensitive when input lowercase
 " turn off search highlight
 nnoremap <leader><space> :nohlsearch<CR>
 " folding
@@ -63,7 +65,7 @@ set foldenable          " enable folding
 set foldlevelstart=10   " open most folds by default
 set foldnestmax=10      " 10 nested fold max
 " space open/closes folds
-" nnoremap <space> za
+nnoremap <space> za
 set foldmethod=indent   " fold based on indent level
 " custom movement
 nnoremap j gj
