@@ -55,13 +55,13 @@ set showmatch           " highlight matching [{()}]
 set incsearch           " search as characters are entered
 set hlsearch            " hightlight matches
 " turn off search highlight
-nnoremap <leader><space> :nohlsearch
+nnoremap <leader><space> :nohlsearch<CR>
 " folding
 set foldenable          " enable folding
 set foldlevelstart=10   " open most folds by default
 set foldnestmax=10      " 10 nested fold max
 " space open/closes folds
-nnoremap <space> za
+" nnoremap <space> za
 set foldmethod=indent   " fold based on indent level
 " custom movement
 nnoremap j gj
@@ -71,5 +71,5 @@ nnoremap gV `[v`]
 " custom leader
 let mapleader=","       " override default  key backslash \
 " edit vimrc/zshrc and load vimrc bindings
-nnoremap ev :vsp $MYVIMRC
-nnoremap sv :source $MYVIMRC
+" nnoremap ev :vsp $MYVIMRC<CR>
+" nnoremap sv :source $MYVIMRC<CR>
