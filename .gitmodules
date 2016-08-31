@@ -1,6 +1,6 @@
 [submodule "vimfiles/bundle/vim-colors-solarized"]
 	path = vimfiles/bundle/vim-colors-solarized
-	url = git://github.com/altercation/vim-colors-solarized.git
+	url = https://github.com/hp2oo1/vim-colors-solarized.git
 [submodule "vimfiles/bundle/undotree"]
 	path = vimfiles/bundle/undotree
 	url = https://github.com/mbbill/undotree.git
